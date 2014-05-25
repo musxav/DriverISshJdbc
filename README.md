@@ -20,21 +20,33 @@ connection jndi in Pentaho bi-server 4.8/5.0.
 
 Parameters driver
 
- user: database connection user name 
+ user: database connection user name
+ 
  password: database connection password 
+ 
  sshuser: ssh connection user
+ 
  sshpassword: ssh connection password
+ 
  sshhost: ssh host, if value "local" defined, connection without session ssh 
  		and parameters for ssh will be ignored
+ 		
  sshport: ssh port connection
+ 
  sshdbhost: database host connection
+ 
  sshdbport: database port connection
+ 
  internalport: default 10105, local port to redirect database remote port
+ 
  encryptedattributes: list of parameters encrypted separated by comma. Used 
  		class org.musxav.varis.Encryptor to text decrypt 
+ 		
  jdbcurl: jdbc url database
+ 
  jdbcclass: class to load jdbc driver, if empty, the driver determine 
  		the load jdbc class for MySql, Oracle, PostGreSql, Microsoft and DB2
+ 		
  controlconn: default true, if true, the object connection is a modify 
  		class "Connection" with control in method close for disconnect 
  		the session ssh. False, return the object Connection of jdbc driver 
