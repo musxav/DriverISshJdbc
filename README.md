@@ -9,7 +9,9 @@ driverISshJdbcJV7.jar version for java 1.7
 
 
 English http://thingsmusxav.blogspot.com/
+
 Catalan http://cosesdemusxav.blogspot.com/
+
 Spanish http://apuntesdemusxav.blogspot.com/
 
 
